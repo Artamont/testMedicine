@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+
+  db:
+    image: postgres
+    container_name: testmedicine
+    environment:
+      POSTGRES_DB: testmedicine
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      password_encryption: md5
+    ports:
+      - 5433:5432
