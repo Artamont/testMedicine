@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <changeSet id="init_1.1" author="dKutsin">
+        <sql dbms="postgresql">
+            CREATE SCHEMA data;
+        </sql>
+        <rollback>
+            <sql dbms="postgresql">
+                DROP SCHEMA data;
+            </sql>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="init_1.2" author="dKutsin">
+        <createTable tableName="doctor" schemaName="data">
+            <column name="id" type="integer" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="firstName" type="character varying(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="secondName" type="character varying(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="lastName" type="character varying(100)"/>
+            <column name="uuid" type="uuid"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="doctor"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="init_1.3" author="dKutsin">
+        <createTable tableName="patient" schemaName="data">
+            <column name="id" type="integer" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="firstName" type="character varying(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="secondName" type="character varying(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="lastName" type="character varying(100)"/>
+            <column name="birthDate" type="date"/>
+        </createTable>
+        <rollback>
+            <dropTable tableName="patient"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="init_1.4" author="dKutsin">
+        <createTable tableName="specialization" schemaName="data">
+            <column name="id" type="integer" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="firstName" type="character varying(100)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="specialization"/>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>

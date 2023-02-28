@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0268f2f8-1efa-476d-95ce-34e84cdf7b0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/app-changelog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/init.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testMedicine.iml" beforeDir="false" />
+    <list default="true" id="0268f2f8-1efa-476d-95ce-34e84cdf7b0d" name="Changes" comment="Изменение настроек">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/inti.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/liquibase-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Specialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Specialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Specialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Specialization.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +51,26 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Проекты/testMedicine",
+    "last_opened_file_path": "C:/Users/user/Downloads/demo",
     "spring.configuration.checksum": "94ce6d4ca1f1d27f1ccd9f13f96268db"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Проекты\testMedicine" />
+      <recent name="C:\Проекты\testMedicine\src\main\resources" />
+      <recent name="C:\Проекты\testMedicine\src\main\java\com\example\testMedicine" />
+      <recent name="C:\Проекты\testMedicine\src" />
+      <recent name="C:\Проекты\testMedicine\db" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestMedicineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="testMedicine" />
@@ -80,8 +89,16 @@
       <option name="presentableId" value="Default" />
       <updated>1677599620357</updated>
       <workItem from="1677599622025" duration="95000" />
-      <workItem from="1677599742197" duration="1082000" />
+      <workItem from="1677599742197" duration="5378000" />
     </task>
+    <task id="LOCAL-00001" summary="Изменение настроек">
+      <created>1677603287067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603287067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Изменение настроек" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение настроек" />
   </component>
 </project>
