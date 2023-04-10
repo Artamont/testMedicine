@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0268f2f8-1efa-476d-95ce-34e84cdf7b0d" name="Changes" comment="Изменение настроек">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/inti.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/liquibase-changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/timetable.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Specialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Specialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Specialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Specialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/DataBaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/example/testMedicine/Entites/DataBaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/example/testMedicine/Entites/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/example/testMedicine/Entites/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/Entites/Specialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/example/testMedicine/Entites/Specialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testMedicine/TestMedicineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/example/testMedicine/TestMedicineApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/init.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/resources/db/changelog/init.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/resources/db/changelog/liquibase-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testMedicine/TestMedicineApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/test/java/com/example/testMedicine/TestMedicineApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/DataBaseObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/Entites/Specialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testMedicine/TestMedicineApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Downloads/demo",
+    "last_opened_file_path": "C:/Проекты/testMedicine/web-app",
     "spring.configuration.checksum": "94ce6d4ca1f1d27f1ccd9f13f96268db"
   },
   "keyToStringList": {
@@ -63,15 +75,32 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Проекты\testMedicine\web-app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Проекты\testMedicine\web-app" />
       <recent name="C:\Проекты\testMedicine" />
       <recent name="C:\Проекты\testMedicine\src\main\resources" />
       <recent name="C:\Проекты\testMedicine\src\main\java\com\example\testMedicine" />
       <recent name="C:\Проекты\testMedicine\src" />
-      <recent name="C:\Проекты\testMedicine\db" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TestMedicineApplication">
+    <configuration name="TestMedicineApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="testMedicine (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testMedicine.TestMedicineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMedicineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="testMedicine" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testMedicine.TestMedicineApplication" />
@@ -90,6 +119,12 @@
       <updated>1677599620357</updated>
       <workItem from="1677599622025" duration="95000" />
       <workItem from="1677599742197" duration="5378000" />
+      <workItem from="1677662115020" duration="1983000" />
+      <workItem from="1677754108510" duration="2128000" />
+      <workItem from="1678366066655" duration="1179000" />
+      <workItem from="1678557052118" duration="1580000" />
+      <workItem from="1679924730771" duration="2586000" />
+      <workItem from="1681137049704" duration="3169000" />
     </task>
     <task id="LOCAL-00001" summary="Изменение настроек">
       <created>1677603287067</created>
